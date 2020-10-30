@@ -1,4 +1,4 @@
-# SkyWay iOS SDK Swift Sample
+# SkyWay P2P Videochat /hyoi MVP
 
 ```
 swift 4.0以上
@@ -8,21 +8,27 @@ Cocoapods 1.0.0以上
 
 ```
 
-## 機能
+# opensource
 
-
-- 1-1の映像サンプル
-- 1-1のチャットサンプル
+NTT Communications より配布されているSkyWayのソースコードを、Apache License 2.0に基づき改変・再配布したものです。
 
 ## セットアップ
-
-### 1. ライブラリのインストール
+ 
+ ### cocoapods
+ 
+SkyWayをインストールできる状態のpodfileが付属しています。
+pod installしてください。
 
 ```
+cd {REPO}
 $ pod install
 ```
 
-### 2. APIKEY, DOMAINの書き換え
+
+### APIKey,Domainの書き換え
+
+https://webrtc.ecl.ntt.com/からAPIKeyとDomainを取得してください。
+AppDelegateにそれぞれ追記してください。
 
 ```
 // AppDelegate.swift
@@ -31,4 +37,3 @@ var skywayAPIKey:String? = "xxx"
 var skywayDomain:String? = "xxx"
 
 ```
-# opensource
