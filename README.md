@@ -32,7 +32,7 @@ AppDelegateにそれぞれ追記してください。
 
 ```
 // AppDelegate.swift
-// https://webrtc.ecl.ntt.com/からAPIKeyとDomainを取得してください
+// https://webrtc.ecl.ntt.com/ からAPIKeyとDomainを取得してください
 var skywayAPIKey:String? = "xxx"
 var skywayDomain:String? = "xxx"
 
